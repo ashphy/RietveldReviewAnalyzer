@@ -44,6 +44,8 @@ class Account < ActiveRecord::Base
   
   has_many :message_recipients
   has_many :messages, :through => :message_recipients, :source => :message
+  
+  has_many :owner_issues, :class_name => 'Issue', :foreign_key => 'owner_id'
 end
 
 class Patchset < ActiveRecord::Base
