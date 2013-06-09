@@ -2,7 +2,7 @@
 # -*- encoding: utf-8 -*-
 
 ###
-### ### Counting issues and accounts in the db
+### Counting issues and accounts in the db
 ### Kazuki Hamasaki (ashphy@ashphy.com)
 ### 
 
