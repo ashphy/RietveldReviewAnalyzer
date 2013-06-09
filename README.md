@@ -16,15 +16,19 @@ Review Analysis Tools for Rietveld, a code review tool
     You can use any databases that rails supported (MySQL, PostgreSQL, SQLite).
     And write your settings into database.yml
 
-3. Get review data
+3. Apply schema
+
+    Use rietveld.sql or rietveld.mwb to apply schema
+
+4. Get review data
 
     We can provide a review data obtained from chromium project here http://sdlab.naist.jp/reviewmining/
 
-3. Importing review data to DB
+5. Importing review data to DB
 
         > ruby rietveld_import_to_mysql.rb REVIEW_DATA_FILE.json 
 
-4. Run alalysis scripts
+6. Run alalysis scripts
 
     We are providing some example script in the example directory.
 
