@@ -1,0 +1,11 @@
+setting: development 
+
+development:
+  adapter: mysql
+  database: Rietveld
+  username: root
+  password: 
+  host: localhost
+  encoding: utf8mb4
+  charset: utf8mb4
+  collation: utf8mb4_general_ci
